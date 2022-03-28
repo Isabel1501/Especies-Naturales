@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(Hojas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 50vh;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+#Cabecera{
+    background-color: #915555;
+    height: 60px;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    text-align: left;
+    color:rgb(255, 255, 255);
+}
+#menu{
+    padding: 20px 0;
+}
+#menu ul li{
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+#menu li:hover{
+        background-color: rgb(0, 0, 0,0.3);
+}
+#menu ul li a{
+    color: purple;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#menu ul li a:hover{
+    color: lime;
+    text-decoration: underline;
+    cursor: pointer;
+    transition:all 600ms;
+}
+#indice{
+    padding: 50px 0;
+}
+#indice ul li{
+    text-align: left;
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+}
+#indice li:hover{
+    background-color: rgb(0, 0, 0,0.3);
+}
+#indice ul li a{
+    color: palevioletred;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#indice ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    transition:all 600ms;
+}
+button{
+    background-color: tomato;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 40px 0;
+}
+button:hover{
+    background-color: #14929b;
+}
+#liga{
+    color: white;
+    text-decoration: none;
+}
+#liga:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

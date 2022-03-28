@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://ae01.alicdn.com/kf/HTB1XOwta6uhSKJjSspmq6AQDpXa0/Laeacco-vides-verdes-tablas-de-madera-tablones-beb-reci-n-nacido-fotograf-a-fondos-vinilo-c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 70%;
+    margin: 0px auto;
+}
+header{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+#menu{
+    padding: 50px 0;
+}
+#menu ul li{
+    text-align: left;
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+}
+#menu li:hover{
+    background-color: rgb(0, 0, 0,0.3);
+}
+#menu ul li a{
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+#menu ul li a:hover{
+    color: lime;
+    text-decoration: underline;
+    cursor: pointer;
+    transition:all 600ms;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.texto{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    background-color: mediumspringgreen;
+    border-color: mediumspringgreen;
+    border-radius: 15px; /*sirve para darle borde al boton*/
+    font-weight: bold;
+    font-size: 25px;
+}

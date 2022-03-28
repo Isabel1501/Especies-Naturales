@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/photos/green-leaves-on-white-picture-id1225155638?k=20&m=1225155638&s=170667a&w=0&h=0ognWs5ZIs_YPr5SsRaB5x8AnGp1ambImYEQe7n4aqY=);
+    background-size: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 70%;
+    margin: 0px auto;
+}
+header{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+#menu{
+    padding: 50px 0;
+}
+#menu ul li{
+    text-align: left;
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+}
+#menu li:hover{
+    background-color: rgb(0, 0, 0,0.3);
+}
+#menu ul li a{
+    color: chocolate;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#menu ul li a:hover{
+    color: lime;
+    text-decoration: underline;
+    cursor: pointer;
+    transition:all 600ms;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    background-color: mediumspringgreen;
+    border-color: mediumspringgreen;
+    border-radius: 15px; /*sirve para darle borde al boton*/
+    font-weight: bold;
+    font-size: 25px;
+}

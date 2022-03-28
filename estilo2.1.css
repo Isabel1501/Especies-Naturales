@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    min-height: 50vh;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+h1{
+color: rgba(0, 0, 0, 0.836);
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+text-align: left;
+color:red;
+}
+p{
+color: purple;
+font-family: serif;
+}
+#Encabezado{
+background-color: #2aa53f;
+height: 60px;
+}
+button{
+    background-color: tomato;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 40px 0;
+}
+button:hover{
+    background-color: #14929b;
+}
+.liga{
+    color: white;
+    text-decoration: none;
+}
+.liga:hover{
+    color: yellow;
+}
